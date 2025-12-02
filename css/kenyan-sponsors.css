@@ -1,0 +1,193 @@
+/* Kenyan Sponsor Logos - CSS Based */
+.kenyan-sponsor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    color: #333;
+    min-width: 150px;
+    height: 80px;
+}
+
+/* Savanna Steel Ltd */
+.sponsor-savanna {
+    flex-direction: column;
+}
+.sponsor-savanna .brand-name {
+    font-size: 22px;
+    font-weight: 900;
+    color: #2c3e50;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.sponsor-savanna .brand-tagline {
+    font-size: 10px;
+    color: #e67e22;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Mombasa Hardware */
+.sponsor-mombasa {
+    flex-direction: column;
+}
+.sponsor-mombasa .brand-icon {
+    font-size: 14px;
+    color: #27ae60;
+}
+.sponsor-mombasa .brand-name {
+    font-size: 18px;
+    font-weight: 800;
+    color: #27ae60;
+    text-transform: uppercase;
+}
+.sponsor-mombasa .brand-sub {
+    font-size: 12px;
+    font-weight: 600;
+    color: #2c3e50;
+    letter-spacing: 4px;
+}
+
+/* Rift Valley Metals */
+.sponsor-rift {
+    flex-direction: column;
+    text-align: center;
+}
+.sponsor-rift .brand-year {
+    font-size: 10px;
+    color: #7f8c8d;
+    letter-spacing: 2px;
+}
+.sponsor-rift .brand-name {
+    font-size: 20px;
+    font-weight: 900;
+    color: #c0392b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.sponsor-rift .brand-sub {
+    font-size: 11px;
+    color: #34495e;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+/* Nairobi Fencing Co */
+.sponsor-nairobi {
+    flex-direction: column;
+}
+.sponsor-nairobi .brand-prefix {
+    font-size: 10px;
+    color: #8e44ad;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.sponsor-nairobi .brand-name {
+    font-size: 24px;
+    font-weight: 900;
+    color: #2c3e50;
+    font-style: italic;
+}
+.sponsor-nairobi .brand-est {
+    font-size: 9px;
+    color: #7f8c8d;
+    letter-spacing: 2px;
+}
+
+/* Kilimanjaro Supplies */
+.sponsor-kilimanjaro {
+    flex-direction: column;
+}
+.sponsor-kilimanjaro .brand-icon {
+    font-size: 16px;
+    color: #3498db;
+}
+.sponsor-kilimanjaro .brand-name {
+    font-size: 16px;
+    font-weight: 800;
+    color: #2980b9;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.sponsor-kilimanjaro .brand-sub {
+    font-size: 10px;
+    color: #7f8c8d;
+    letter-spacing: 1px;
+}
+
+/* Turkana Building Materials */
+.sponsor-turkana {
+    flex-direction: column;
+    border-left: 3px solid #e74c3c;
+    padding-left: 10px;
+}
+.sponsor-turkana .brand-name {
+    font-size: 18px;
+    font-weight: 900;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+.sponsor-turkana .brand-sub {
+    font-size: 9px;
+    color: #e74c3c;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Maasai Construction */
+.sponsor-maasai {
+    flex-direction: column;
+}
+.sponsor-maasai .brand-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.sponsor-maasai .brand-icon {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.sponsor-maasai .brand-name {
+    font-size: 18px;
+    font-weight: 800;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+.sponsor-maasai .brand-tagline {
+    font-size: 9px;
+    color: #7f8c8d;
+    letter-spacing: 3px;
+}
+
+/* Lake Victoria Ironworks */
+.sponsor-victoria {
+    flex-direction: column;
+}
+.sponsor-victoria .brand-name {
+    font-size: 14px;
+    font-weight: 900;
+    color: #1abc9c;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.sponsor-victoria .brand-main {
+    font-size: 22px;
+    font-weight: 900;
+    color: #2c3e50;
+    font-family: Georgia, serif;
+}
+.sponsor-victoria .brand-sub {
+    font-size: 10px;
+    color: #7f8c8d;
+    letter-spacing: 2px;
+}

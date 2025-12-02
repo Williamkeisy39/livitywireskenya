@@ -1,0 +1,58 @@
+/* Livity Wires Custom Logo Styles */
+.livity-logo {
+    font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: #2c3e50;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.livity-logo .livity-text {
+    color: #2c3e50;
+}
+
+.livity-logo .wires-text {
+    color: #e74c3c;
+}
+
+.livity-logo .logo-icon {
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Light logo version */
+.livity-logo.light .livity-text {
+    color: white;
+}
+
+.livity-logo.light .wires-text {
+    color: #e74c3c;
+}
+
+.livity-logo.light .logo-icon {
+    background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+}
+
+/* Responsive logo */
+@media (max-width: 768px) {
+    .livity-logo {
+        font-size: 24px;
+    }
+    
+    .livity-logo .logo-icon {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+}

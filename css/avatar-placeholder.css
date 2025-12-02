@@ -1,0 +1,54 @@
+/* Avatar Placeholder Styles */
+.avatar-placeholder {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+
+.avatar-placeholder.avatar-1 {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+}
+
+.avatar-placeholder.avatar-2 {
+    background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+}
+
+.avatar-placeholder.avatar-3 {
+    background: linear-gradient(135deg, #27ae60 0%, #1e8449 100%);
+}
+
+.avatar-placeholder.avatar-4 {
+    background: linear-gradient(135deg, #f39c12 0%, #d68910 100%);
+}
+
+.avatar-placeholder.avatar-5 {
+    background: linear-gradient(135deg, #9b59b6 0%, #7d3c98 100%);
+}
+
+/* Testimonial item adjustments */
+.testi-item .avatar-placeholder {
+    margin-right: 20px;
+}
+
+/* Team member avatar */
+.team-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 auto 20px;
+}
